@@ -1,0 +1,7 @@
+h1{
+    color: aliceblue;
+}
+
+p:hover, h1:hover, a:hover {
+    background-color: black;
+  }
