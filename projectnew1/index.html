@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <center>
+        <h1  >
+        
+            BEGIMAI AKYLBEKOVA   -  SMM SPECIALIST- DESIGNER- PROGRAMMER
+        </h1>
+    </center>
+    
+    <style>
+        body {
+         background: url(images/phon.png) no-repeat;
+         -moz-background-size: 10000%; /* Firefox 3.6+ */
+         -webkit-background-size: 1000%; /* Safari 3.1+ и Chrome 4.0+ */
+         -o-background-size: 1000%; /* Opera 9.6+ */
+         background-size: 1000%; /* Современные браузеры */
+        }
+       </style font-size:300000%>
+<h1> design work
+    </h1>
+<img src="./images/tesla.png" width="300" height="300" alt="tesla">
+<img src="./images/tradein.png" width="300" height="300"> 
+<img src="./images/ipoteka.png" width="300" height="300">
+<img src="./images/parking.png" width="300" height="300">
+<img src="./images/interier.png" width="300" height="300">
+<img src="./images/oito.png" width="300" height="300">
+
+
+<h1>
+    Programming work</h1>
+<style>
+#myContainer {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+}
+#myAnimation {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
+</style>
+<body>
+
+<p>
+<button onclick="myMove()">Click Me</button> 
+</p>
+
+<div id ="myContainer">
+<div id ="myAnimation"></div>
+</div>
+
+<script>
+function myMove() {
+  var elem = document.getElementById("myAnimation");   
+  var pos = 0;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + 'px'; 
+      elem.style.left = pos + 'px'; 
+    }
+  }
+}
+</script>
+
+
+<style> 
+  html { height: 500%; }
+  body {
+   margin: 0; /* Убираем отступы */
+   height: 10000%; /* Высота страницы */
+   background: url(images/krasivo3.png); /* Параметры фона */
+   background-size: cover; /* Фон занимает всю доступную площадь */
+  } 
+ </style>
+
+<h1> Programming work </h1>
+<canvas id ="myCanvas" width="1000" height="1000"></canvas>
+<script>
+var c=document.getElementById("myCanvas");
+var pen=c.getContext("2d");
+for (var i = 0; i < 255; i = i + 25) {
+for (var j = 1; j < 255; j = j + 25) {
+pen.fillStyle = 'rgb(0,'+i+','+j+')';
+pen.beginPath();
+pen.moveTo(i,j);
+pen.lineTo(i+10,j + 20)
+pen.lineTo(i+20,j)
+pen.stroke();
+pen.fill();
+}}
+</script>
+
+
+<p>
+<h1>About Me</h1>
+  
+</p>
+
+<body>
+  <img src="./images/myphoto.jpeg" style="margin-top: 10px; margin-left: 10px;" width="900" height="900">
+  </body>
+  <p>
+    <ul>
+      <li>
+        PERSONAL INFORMATION
+      </li>
+      <ul>
+        Akylbekova Begimai Mirlanovna
+
+      </ul>
+      <ul>
+        17 years old
+      </ul>
+      <ul>
+        ALATOO international university
+      </ul>
+      <ul> PROFESSION - designer,programmer</ul>
+    </ul>
+  </p>
